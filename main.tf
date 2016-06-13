@@ -54,6 +54,8 @@ resource "aws_instance" "web" {
 }
 
 output "public_ip" {
+    # Coming soon (Terraform 0.7)
+    # ["${aws_instance.web.*.public_dns}"]
     value = "${join(", ", aws_instance.web.*.public_ip)}"
 }
 

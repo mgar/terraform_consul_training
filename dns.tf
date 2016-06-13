@@ -21,7 +21,7 @@ provider "dnsimple" {
 
 resource "dnsimple_record" "example" {
     domain = "terraform.rocks"
-    name = "terraform"
+    name = "hashiconf-19ca14e7ea6328a42e0eb13d585e4c22"
     value = "${aws_instance.web.0.public_ip}"
     type = "A"
     ttl = 3600

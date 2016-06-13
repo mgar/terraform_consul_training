@@ -16,12 +16,6 @@
 # Your Identity is:
 #
 #     hashiconf-19ca14e7ea6328a42e0eb13d585e4c22
-#
-# Your AccessKeyID and SecretAccessKey are:
-#
-#     AKIAIU3HGRWM3A27HDMA
-#     ufr0wEf9sLHkIqNA2/vo1b7K5jyQ3CVTL/m7jZW5
-#
 
 variable "aws_access_key" {}
 
